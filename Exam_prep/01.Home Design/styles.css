@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100&family=Montserrat:wght@200;300;400&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+
+body {
+    font-family: 'Courgette', cursive;
+    font-weight: 100;
+}
+header{
+    text-align: center;
+
+}
+h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin: 5px 0;
+}
+h2 {
+    text-indent: 250px;
+    letter-spacing: 2px;
+    color: #ca1c22;
+    margin: 20px ;
+
+}
+.home {
+    max-width: 1400px;
+    background-color: whitesmoke;
+    padding: 30px;
+
+}
+.cards {
+    text-align: center;
+    font-weight: lighter;
+
+}
+.home1, .home2, .home3 {
+    display: inline-block;
+    width: 30%;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    border-radius: 20px;
+      
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+p {
+    height: 70px;   /*вис.да е еднаква */
+    padding: 10px;
+}
+h3 {
+    margin: 20px 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ca1c22;
+}
+i {
+    background-color: #ca1c22;
+    color: white;
+    border-radius: 50%;
+    padding: 6px;
+    margin-left: 5px;
+}

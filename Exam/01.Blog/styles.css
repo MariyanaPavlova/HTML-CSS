@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+
+:root{
+    --yellow: #f6e0b5;
+    --p: #66545e;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+article {
+    display: flex;
+    width: 1050px;
+    height: 500px;
+    background-color: var(--yellow);
+    margin: 50px 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    position: relative;
+
+}
+.pictures .navigation {
+}
+.pictures {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+img {
+    display: block;
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+
+p{
+    background-color: var(--p);
+    margin: 0;
+    color: white;
+    padding-top: 5px;
+    margin: 0;
+    height: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.pic1, .pic2, .pic3, .pic4 {
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 20px 5px rgba(73, 72, 72, 0.75);
+}
+.navigation {
+    position: relative;
+    top:  0px;
+    font-size: 18px;
+    top: -70px;
+    width: 200px;
+    font-weight: bold;
+    
+}
+ul {
+    list-style-type: none;
+    height: 200px;
+    padding: 0;
+    line-height: 1.5;
+    color: var(--p);
+}
+h4 {
+    color: var(--p);
+}
+i {
+    color: var(--p);
+    margin-right: 5px;
+}

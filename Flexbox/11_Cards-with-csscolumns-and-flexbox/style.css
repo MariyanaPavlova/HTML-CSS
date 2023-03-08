@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    
+}
+
+.card{
+    background-color: white;
+    border: solid 1px black;
+    overflow: hidden;
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    font-size: 1rem;
+}
+
+
+img{
+    width: 100%;;
+}
+
+.cards {
+    display: flex;
+    gap: 2.1vw;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    
+}
+
+.flex{
+    display: flex;
+    gap: 2.1vw;
+    flex-wrap: wrap;
+
+  }
+  
+.card h3, p, footer{
+    margin-left: 20px ;
+    margin-right: 20px ;
+}
+.card footer{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    
+}

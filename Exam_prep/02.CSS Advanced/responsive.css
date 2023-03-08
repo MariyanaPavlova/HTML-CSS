@@ -1,0 +1,61 @@
+@media (max-width:600px) {
+    main{
+        width:min-content;
+        
+    }
+    .left-to-right:first-child {
+        display: block;
+        height: 580px;
+        padding: 35px;
+        font-size: 1.1rem;
+    }
+    
+    main .left-to-right article {
+        border-radius: 20%;
+        height: 350px;
+
+    }
+
+    button{
+        display: none;
+    }
+
+    main .left-to-right article {
+        padding: 55px 61px 75px 70px;
+        font-size: 1.1rem;
+        
+    }
+
+    main section:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        font-size: 1.1rem;
+    } 
+    main section:nth-child(2) article, main section:nth-child(4) article {
+        margin-right: 20%;
+        
+    }
+
+    main section.left-to-right:nth-child(3) {
+        font-size: 1.2rem;
+        text-align: center;
+        
+    }
+    main section:nth-child(4) {
+        display: block;
+
+    }
+    section form label input {
+        width: 80%;
+    }
+    section form textarea {
+        width: 80%;
+    }
+ 
+        width: 80%;
+    }
+
+    form input[type="submit"] {
+        position: relative;
+        left: 320px;
+    }

@@ -1,0 +1,35 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+.viewport:first-child {
+    background-color: lightgreen;
+    
+}
+.viewport:nth-child(2) {
+    background-color: lightsalmon;
+    
+}
+.viewport {
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+.viewport .card{
+    display: block;
+    position: relative;
+    width: 200px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.viewport .card img{
+    width: 100%;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.viewport .card i {
+    color: aliceblue;
+    position: relative;
+    bottom: 15px;
+    left: 95%;
+}

@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+    margin-left: 40px;
+}
+aside {
+    font: 1em/1.2 Georgia, serif;
+}
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+.header p{
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 1px
+}
+.header nav{
+    display: inline-block;
+    text-align: left;
+}
+.header nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.header nav ul {
+    position: relative;
+    left: 400px
+}
+.header nav ul li a{
+    margin: 10px;
+ 
+}
+.header {
+    border-bottom: solid 2px;
+}
+main {
+    display: inline-block;
+    width: 63%;
+}
+aside {
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    margin-left: 50px;
+}
+img {
+    padding: 5px 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 6px 5px 0px rgba(0, 0, 0, 0.25);
+    border: solid 2px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.first-image {
+    float: right;
+    margin-left: 15px;
+
+}
+.second-image {
+    float: left;
+
+}
+.inside1 {
+    display: inline-block;
+    width: 45%;
+    padding-right: 15px;
+    border-right: solid 2px gray;
+}
+.inside2 {
+    display: inline-block;
+    width: 45%;
+    vertical-align:top;
+    margin-left: 20px;
+    font-style: italic;
+    color: grey
+}
+blockquote {
+/* може и само с text-align:right и float:right и width:40%*/
+    display: inline-block;
+    
+    position: absolute;
+    left: 390px;
+    top: 920px;
+    font-style: italic;
+    color: rgb(228, 88, 88);
+    font-family: Georgia, serif;
+    
+}
+/* .in-text {
+    display: inline-block;
+    max-width: 1200px;
+    width: 60%;
+} */

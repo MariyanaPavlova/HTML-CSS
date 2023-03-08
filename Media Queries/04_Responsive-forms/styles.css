@@ -1,0 +1,56 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+    display: block;
+    margin: 30px 30px;
+
+}
+p{
+    display: inline;
+}
+fieldset {
+    border: 2px solid black;
+    width: 320px;
+    height: 150px;
+    padding-left: 20px;
+    background-color: rgb(230, 230, 230);
+}
+legend {
+    border: solid 1px black;
+    padding: 3px 25px;
+    text-align: left;
+}
+button {
+    background-color: black;
+    color: #fff;
+    border-radius: 10%;
+    padding: 5px 20px;
+
+}
+
+legend {
+    width: 30px;
+    position: relative;
+    top: 0px;
+    left: -6px;
+    border: 2px solid;
+    margin-left: 0;
+    background-color: ghostwhite;
+    
+}
+
+i {
+    position: absolute;
+    left: 125px;
+
+}
+input{
+   padding: 0;
+   font-size: 18px;
+    margin-bottom: 10px;
+    
+
+}
+input:focus {
+    background-color: lightblue;
+}

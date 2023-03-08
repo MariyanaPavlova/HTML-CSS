@@ -1,0 +1,48 @@
+body{
+  display: flex;
+}
+.gallery{
+    display: flex;
+    background-color: gainsboro;
+    box-sizing: border-box;
+    width: 1400px;
+   
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: stretch;
+    padding: 40px;
+    margin: 0px;
+}
+
+.gallery ul li{
+    display: flex;
+
+    border: 5px black solid;
+    padding: 30px 30px;
+    align-items: center;
+    background-color: white;
+
+}
+
+/* body,
+ul,
+li {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+ul {
+  justify-content: space-evenly;
+}
+
+img {
+  border: solid 6px black;
+  padding: 2rem 1.5rem;
+  object-fit: contain;
+} */

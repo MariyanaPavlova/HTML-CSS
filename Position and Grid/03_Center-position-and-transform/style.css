@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(238, 238, 238);
+
+}
+section {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    font: 1em/1.5 Georgia, serif;
+    box-shadow: 5px 6px 5px 0px rgba(192, 188, 188, 0.75);
+    border-radius: 5px;
+    
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+a{
+    background-color: rgb(0, 153, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    position: relative;
+    text-decoration: none;
+    left: 370px;
+}
+
+.bottom {
+    margin-left: 20px;
+    box-sizing: border-box;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+ 
