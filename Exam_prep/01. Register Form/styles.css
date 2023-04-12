@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,300&display=swap');
+
+
+:root {
+    --btn: #ae3c33;
+    --fon: #fdfdfd;
+    --shadow: #8f8d8d;
+    --col-text:#8f8d8d;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    width: 1300px;
+    color: var(--col-text);
+}
+
+.container {
+
+    background: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main-reg-form {
+    width: 800px;
+    height: 600px;
+    background-image: url(./images/form-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px var(--shadow);
+    z-index: 1;
+
+}
+.form-in {
+    width: 400px;
+    margin-left: 40px
+}
+.main-reg-form h1{
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.form-name1-1 {
+    width: 150px;
+    padding: 6px;
+    border-radius: 15px;
+    border: 1px solid #8f8d8d;
+    margin-top: 5px;
+}
+.form-one {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+.form-in2 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: stretch;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.form-in2-i {
+    width: 350px;
+    padding: 7px;
+    border-radius: 15px;
+    border: 1px solid #8f8d8d;
+    margin-top: 5px;
+}
+.form button {
+    background-color: var(--btn);
+    padding: 8px 15px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    border-style: none;
+    color: var(--fon);
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px var(--shadow);
+}

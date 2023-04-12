@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+:root {
+    --background: #fff;
+    --green-btn: #00cf8e;
+    --green-fon: #b2f1dd;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    width: 1200px;
+    font-size: 18px;
+}
+
+.first-container {
+    margin: 0 60px;
+    height: 85vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.60)), url(./image/computer-main.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--background);
+       
+}
+.img1-img {
+    width: 100%; /* снимката се намества вътре */
+    height: 100%;
+}
+
+.header1, .header2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap: 270px;
+    text-shadow: 1px 1px grey;
+}
+.text {
+    margin-top:30px;
+
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.text-action {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+      
+}
+
+/* .img1 {     /* контейнера на снимката смалявам 
+    height:85vh;
+  
+} */
+
+/* .img1-img {
+    width: 100%; /* снимката се намества вътре орязана 
+    height: 100%;
+    object-fit:cover;
+} */
+.text-center{
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+}
+.text-button {
+    background-color: var(--green-btn);
+    padding: 5px 15px;
+    color: var(--background);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.text-h1 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+
+
+
+.container-flex{
+    display: flex;
+    flex-basis: 50%;
+    align-items: flex-start;
+
+}
+.second-img2 {
+    width: 540px;
+    margin: 0 60px;
+    display: block;
+    
+}
+.second-text {
+    width: 480px;
+
+}
+.second-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.second-nav ul li i{
+    padding: 10px;
+    color: var(--green-btn);
+}
+
+
+
+
+.container2-flex{
+    display: flex;
+    flex-basis: 50%;
+    align-items: flex-start;
+}
+.third-part-images {
+    width: 480px;
+    margin: 0 60px;
+}
+.third-part-images img{
+    width: 60px;
+}
+
+.third-part-img-big{
+    width: 540px;
+    display: block;
+    
+}
+.third-part-images-small li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.third-part-images-small {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-left: 40px;
+}
+.third-part-images-small span {
+    color: var(--green-btn);
+    font-weight: bold;
+}
+.third-part-images h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+.container-footer{
+    background-color: var(--green-fon);
+    margin: 0 60px;
+}
+
+.container-footer-mini {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.container-footer-base-h2{
+    text-align: center;
+    padding-top:30px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.container-footer-base h4{
+    margin: 0;
+}
+.container-footer-botton {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
