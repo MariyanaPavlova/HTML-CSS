@@ -1,0 +1,223 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+
+
+:root {
+    --blue: #85dcff;;
+    --black: #000;
+    --white: #fff;
+
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'Arial', sans-serif;
+    width: 1500px;
+}
+h1 {
+    font-size: 40px;
+}
+.header-cont{
+    margin-left: 40px;
+    
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+.header-nav ul {
+    list-style-type: none;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+/* ------------ */
+.beaver {
+    background-color:var(--blue);
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.beaver-cont-blue-text{
+    width: 800px;
+    margin-top: 80px;
+    margin-right: 100px;
+    padding-right: 220px;
+}
+.beaver-cont-blue-text h1{
+    margin-bottom: 30px;
+    
+}
+.MemberPaw-img {
+    display: block;
+}
+.cont-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.buttons-w  {
+    padding: 10px 60px;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: var(--white);
+    font-size: 16px;
+}
+.buttons-b  {
+    padding: 20px 80px;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 16px;
+}
+
+/* ------------ */
+.blue-icons {
+    margin-left: 40px;
+}
+.blue-icons-headings{
+    text-align: center;
+    padding: 20px;
+}
+.blue-icons-headings p{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 22px;
+   
+
+}
+.blue-icons-headings h2{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 34px;
+
+}
+.blue-icons-tree{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    
+}
+.blue-icons-tree i{
+    color: var(--blue);
+    margin-bottom: 20px;
+    
+}
+
+.blue-icons1,
+.blue-icons2,
+.blue-icons3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    justify-content: center;
+
+}
+.blue-icons1 h3,
+.blue-icons2 h3,
+.blue-icons3 h3{
+    font-size: 24px;
+}
+.blue-icons1 p,
+.blue-icons2 p,
+.blue-icons3 p{
+    font-size: 15px;
+
+}
+
+/* ------------ */
+.work {
+    background-color: var(--blue);
+}
+.work h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.work-nav {
+    display: flex;
+    justify-content: space-around;
+}
+.work-nav li {
+    padding: 20px 0 20px;
+    list-style-type: disc;
+}
+.work button {
+    padding: 10px 60px;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+   
+}
+.but {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+
+/* ------------ */
+.images h1, p{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.images-img {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+.images-img img{
+    width: 200px;
+}
+
+/* ------------ */
+.how-work h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.how-work-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+.bb {
+    margin: 0 20px;
+    
+}
+.p{
+    background-color: var(--blue);
+    padding: 20px;
+}
+.bb p {
+    border: ;
+}

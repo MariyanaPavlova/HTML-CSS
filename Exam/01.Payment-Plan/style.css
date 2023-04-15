@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --grey: #a6a6c8;
+
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.30)), url(./image/background.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.payments {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.payments1, .payments2, .payments3{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 18px;
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    box-shadow: 1px 2px 2px var(--grey);
+}   
+.payments2 {
+    height: 650px;
+}
+.payments3 {
+    height: 630px;
+}
+.payments-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.payments-price {
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    text-shadow: 0 0 2px var(--grey);
+}
+
+.payments-grey {
+    color: #000;
+    font-size: 70px;
+    text-shadow: none;
+    
+}
+.payments-p {
+    font-weight: 200;
+    font-size: 14px;
+    font-style: var(--grey);
+    margin-bottom: 30px;
+    text-shadow: 0 0 2px var(--grey);
+    
+}
+.payments-nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 15px;
+    flex-basis: 1;
+}
+.payments-nav ul li{
+    padding-bottom: 15px;
+}
+.button{
+    width: 160px;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    bottom: 40px;
+}
