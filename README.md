@@ -1,2 +1,2 @@
 # HTML-CSS
-SoftUni course 
+ Learning HTML&CSS course from SoftUni - https://softuni.bg/
